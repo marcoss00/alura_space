@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5244384-2edf-42e3-9c50-8b2e95a58826" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/galeria/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Alura_space.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alura_space.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/galeria/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/galeria/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="d5244384-2edf-42e3-9c50-8b2e95a58826" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,6 +128,7 @@
       <workItem from="1742258660987" duration="647000" />
       <workItem from="1742267274183" duration="2000" />
       <workItem from="1742270531682" duration="25000" />
+      <workItem from="1742338834107" duration="1536000" />
     </task>
     <servers />
   </component>

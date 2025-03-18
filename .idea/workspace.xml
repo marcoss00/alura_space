@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5244384-2edf-42e3-9c50-8b2e95a58826" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/galeria/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/galeria/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/galeria/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/galeria/partials/_cabecalho.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/galeria/partials/_menu_lateral.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/galeria/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Alura_space.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alura_space.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura_space/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alura_space/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura_space/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alura_space/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/galeria/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/galeria/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;marcoss00&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/marcoss00/alura_space.git&quot;,
+    &quot;accountId&quot;: &quot;9030a1d1-2581-4176-9895-85a557217555&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -42,25 +53,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.Alura_space.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Alura_space.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Alura_space" type="Python.DjangoServer" factoryName="Django server">
       <module name="Alura_space" />
@@ -107,6 +124,18 @@
       <workItem from="1742092813978" duration="3056000" />
       <workItem from="1742133286020" duration="10348000" />
       <workItem from="1742182231545" duration="7211000" />
+      <workItem from="1742225858768" duration="1697000" />
+      <workItem from="1742230559748" duration="423000" />
+      <workItem from="1742231005459" duration="2000" />
+      <workItem from="1742231053281" duration="573000" />
+      <workItem from="1742231965315" duration="4263000" />
+      <workItem from="1742236305230" duration="1748000" />
+      <workItem from="1742256229195" duration="20000" />
+      <workItem from="1742256650812" duration="33000" />
+      <workItem from="1742257831706" duration="480000" />
+      <workItem from="1742258660987" duration="647000" />
+      <workItem from="1742267274183" duration="2000" />
+      <workItem from="1742270531682" duration="25000" />
     </task>
     <servers />
   </component>
